@@ -4,41 +4,80 @@
     <title>"Nayla Castillo"</title>
     <meta charset="utf-8">
     <style>
+  
+      .mb{
+        margin-bottom: 30px;
+      }
       body {
         padding-top: 40 px;
         padding-bottom: 40 px;
-        background-color: #f9f4ef;
+        background-color: rgba(234, 234, 192, 0.8);
+        display: flex;
+        justify-content: center;
+        height: 100%;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640 px;
+        padding: 30 px;
+        flex-grow: 1;
+      }
+      .banner{
+        display: flex;
+        justify-content: center;
       }
       .banner-image {
         width: 128px;
         height: 128px;
         object-fit: cover;
-        border-image-source: url(profile-border.jpg);
         border-radius: 128px;
-        
+        border: #3f2f2a 2px solid;
       }
       .name {
-        color: #55423d;
+        color: #3f2f2a;
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+      }
+      .social-icons {
+        display: flex;
+        justify-content: space-around
       }
       .social-icons a {
-        color: #554235;
+        color: #3f2f2a;
         text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
-      .link-thumbnail {
+      .thumbnail {
         width: 48px;
-        height: 48px;
+        height: 48 px;
         border-radius: 48px;
         object-fit: cover;
+        border: #3f2f2a 2px solid;
       }
-      .links-book-recs a {
-        color: #554235;
+      
+      .links {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 15px;
+        gap: 10px;
+      }
+      .links a {
+        color: #3f2f2a;
         text-decoration: none;
+        flex-grow: 1;
+       text-align: center;
+       border-radius: 50px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
-
     </style>
   </head>
   <body>
-     <div>
+    <div class="items">
       <div class="banner">
         <img src="thumbnails/profile-pic.jpg" alt="Books&Whatnot" class= "banner-image">
       </div>
@@ -47,47 +86,42 @@
         Books&Whatnot
       </div>
 
-      <div class="social-icons">
-      
-        <div>
-          <img src="thumbnails/github.jpg" class="link-thumbnail">
+      <div class="social icons-a">
+        <div class="social-icons mb">
             <a href="https://github.com/castnay" target="_blank">
               Github
             </a>
         </div>
       
-        <div>
-          <img src="thumbnails/linkedin.jpg" class="link-thumbnail">
+        <div class="social-icons">
             <a href=https://www.linkedin.com/in/nayla-castillo/ target="_blank">
               LinkedIn
             </a>
         </div>
       </div>
 
-      <div class="links-book-recs">
-        
-        <div>
-          <img src="thumbnails/bfb.jpg" class="link-thumbnail">
+      <div class="link-a">
+        <div class="links">
+          <img src="thumbnails/bfb.jpg" class= "thumbnail">
             <a href="https://time.com/collection/100-best-fantasy-books/" target="_blank">
               Best Fantasy Books of All Time
             </a>
         </div>
         
-        <div>
-          <img src="thumbnails/bcb.jpg" class="link-thumbnail">
+        <div class="links">
+          <img src="thumbnails/bcb.jpg" class= "thumbnail">
             <a href="https://www.penguin.co.uk/articles/2022/05/100-must-read-classic-books" target="_blank">
               Best Classics of All Time
             </a>
         </div>
         
-        <div>
-          <img src="thumbnails/2022.jpg" class="link-thumbnail">
+        <div class="links">
+          <img src="thumbnails/2022.jpg" class= "thumbnail">
             <a href="https://www.goodreads.com/choiceawards/best-books-2022" target="_blank">
               Best of 2022
             </a>
         </div> 
       </div>
     </div>
-
   </body>
 </html>
