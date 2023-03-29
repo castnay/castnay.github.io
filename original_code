@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>"Nayla Castillo"</title>
+    <meta charset="utf-8">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <style>
+
+      html { 
+    background: url(thumbnails/typing.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      }
+  
+      .mb{
+        margin-bottom: 30px;
+      }
+      body {
+        padding-top: 40 px;
+        padding-bottom: 40 px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640 px;
+        padding: 30 px;
+        flex-grow: 1;
+      }
+      .banner{
+        display: flex;
+        justify-content: center;
+      }
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+        border: black 2px solid;
+      }
+      .name {
+        color: magenta;
+        display: flex;
+        justify-content: center;
+        font-family: 'Russo One', sans-serif;
+      }
+      .social-icons {
+        display: flex;
+        justify-content: space-around
+      }
+      .social-icons a {
+        color: magenta;
+        text-decoration: none;
+        font-family: 'Russo One', sans-serif;
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48 px;
+        border-radius: 48px;
+        object-fit: cover;
+        border: black 2px solid;
+      }
+      
+      .links {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 15px;
+        gap: 10px;
+      }
+      .links a {
+        color: magenta;
+        text-decoration: none;
+        flex-grow: 1;
+       text-align: center;
+       border-radius: 50px;
+       font-family: 'Russo One', sans-serif;
+      }
+
+      .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="items">
+      <div class="banner">
+        <img src="thumbnails/profile-pic.jpg" class= "banner-image">
+      </div>
+
+      <div class="name">
+        Nayla Castillo
+      </div>
+
+      <div class="social icons-a button">
+        <div class="social-icons mb">
+            <a href="" target="_blank">
+              Github (Portfolio)
+            </a>
+        </div>
+      
+        <div class="social-icons">
+            <a href= target="_blank">
+              LinkedIn
+            </a>
+        </div>
+      
+        <div class="social-icons">
+          <img src="" class= "">
+            <a href="" target="_blank">
+              Organizations that Code for good!
+            </a>
+        </div>
+        
+        <div class="social-icons">
+          <img src="thumbnails/bcb.jpg" class= "l">
+            <a href="" target="">
+              Best Classics of All Time
+            </a>
+        </div>
+        
+        <div class="social-icons">
+          <img src="" class= "">
+            <a href="" target="_blank">
+              Best of 2022
+            </a>
+        </div> 
+      </div>
+    </div>
+  </body>
+</html>
