@@ -1,170 +1,143 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>"Nayla Castillo"</title>
-    
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nayla Castillo</title>
+  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <style>
 
-    <style>
+html { 
+  background: url(thumbnails/castle.gif) no-repeat center center fixed; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
 
-      html { 
-        background: url(thumbnails/typing.gif) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      }
+.banner-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+.name {
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #fffffe;
+  text-decoration: none
+}
+
+.link {
+  background-image: url(thumbnails/stars.gif);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  font-family: 'Russo One', sans-serif;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+</style>
+</head>
+<body>
+<div class="items">
+<div class="banner">
+  <img src="profile-pic.jpg" alt="Nayla Castillo headshot" class="banner-image">
+</div>
+
+<div class="name">
+  Nayla Castillo
+</div>
+
+<div class="social-icons">
   
-      body {
-        padding-top: 40 px;
-        padding-bottom: 40 px;
-        display: flex;
-        justify-content: center;
-        height: 100%;
-        margin: 0;
-        height: 100vh;
-        width: 100vw;
+  <a href="https://github.com/castnay/castnay.github.io" target="_blank">
+    GitHub
+  </a>
 
-      }
-      .items {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        max-width: 640 px;
-        padding: 30 px;
-        flex-grow: 1;
-      }
-      .banner{
-        display: flex;
-        justify-content: center;
-      }
-      .banner-image {
-        width: 128px;
-        height: 128px;
-        object-fit: cover;
-        border-radius: 128px;
-        border: black 2px solid;
-      }
-      .name {
-        color:rgb(223, 138, 213);
-        display: flex;
-        justify-content: center;
-        font-family: 'Russo One', sans-serif;
-        font-size: 36px;
-      }
+  <a href="https://www.linkedin.com/in/nayla-castillo/" target="_blank">
+    LinkedIn
+  </a>
 
-      .thumbnail {
-        width: 48px;
-        height: 48 px;
-        border-radius: 48px;
-        object-fit: cover;
-        border: black 2px solid;
-      }
+  <a href = "mailto:naylac14@gmail.com?subject = Feedback&body = Message">
+    Contact Me
+    </a>
+</div>
 
-      .button {
-        border: none;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin-left: 70px;
-        margin-right: 70px;
-        cursor: pointer;
-        font-family: 'Russo One', sans-serif;
-      }
+<div class="link">
+  <img src="thumbnails/heart.jpg" class="thumbnail">
 
-      .button1 {
-        border-radius: 12px;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        margin-bottom: 20px;
-        background-image: url(thumbnails/stars.gif);
-      }
-      .button1_image {
-        background: transparent;
-        object-fit: cover;
-        border-radius: 50%;
-      }
-      .button2 {
-        border-radius: 12px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        background-image: url(thumbnails/stars.gif);
-        margin-bottom: 20px;
-      }
-      .button3 {
-        border-radius: 12px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        background-image: url(thumbnails/stars.gif);
-        margin-bottom: 20px;
-      }
-      .button4 {
-        border-radius: 12px;
-        background-image: url(thumbnails/stars.gif);
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-      }
-      .button5 {
-        border-radius: 12px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        background-image: url(thumbnails/stars.gif);
-        margin-bottom: 20px;
-      }
-   
-    </style>
-  </head>
-  <body>
-    <div class="items">
-      <div class="banner">
-        <img src="thumbnails/profile-pic.jpg" class= "banner-image">
-      </div>
+  <a target="_blank" href="http://paulgraham.com/startupideas.html">About Me</a>
+</div>
 
-      <div class="name">
-        Nayla Castillo
-      </div>
+<div class="link">
+  <img src="thumbnails/women.jpg" class="thumbnail">
 
-      <div class="button">
-          <div class="button1">
-            <img src="thumbnails/github_logo.jpg" class= "button1_image">
-            <a href= "https://github.com/castnay/castnay.github.io" target="_blank">
-                Github (Portfolio)
-                
-            </a>
-          </div>
-          <div class="button2">
-            <a href=" https://www.linkedin.com/in/nayla-castillo/"target="_blank">
-                LinkedIn
-            </a>
-          </div>
-          
-          <div class="button3">
-            <img src="" class= "">
-              <a href="" target="_blank">
-                  Organizations that Code for Good!
-              </a>
-          </div>
+  <a target="_blank" href="https://practicaltypography.com/typography-in-ten-minutes.html">Women's History Month Panel That I Spoke In</a>
+</div>
 
-          <div class="button4">
-            <img src="" class= "l">
-              <a href="" target="">
-                  Best Classics of All Time
-              </a>
-          </div>
-        <div class= button5>
-          <img src="" class= "">
-            <a href="" target="_blank">
-                Best of 2022
-            </a>
-        </div>
-      </div>
-    </div>
-  </body>
+<div class="link">
+  <img src="thumbnails/health.jpg" class="thumbnail">
+
+  <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">
+    Health Equity Initiative In Chicago</a>
+</div>
+
+<div class="link">
+  <img src="thumbnails/money.jpg" class="thumbnail">
+
+  <a target="_blank" href="https://waitbutwhy.com/2015/12/the-tail-end.html">How Can Apprenticeships Increase the Value Of Your Company</a>
+</div>
+
+</div>
+</div>
+</body>
+
 </html>
