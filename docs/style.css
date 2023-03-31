@@ -1,0 +1,81 @@
+html { 
+  background: url(thumbnails/castle.gif) no-repeat center center fixed; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+.name {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  text-shadow: 2px 2px rgb(90, 1, 90);
+}
+
+.social-icons a {
+  color: #fffffe;
+  text-decoration: none;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 2px 2px rgb(90, 1, 90);
+}
+
+.link {
+  background-image: url(thumbnails/starts.gif);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 80px;
+  margin-left: 70px;
+  margin-right: 70px;
+  opacity: .80;
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 2px 2px rgb(90, 1, 90);
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
