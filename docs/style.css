@@ -16,6 +16,7 @@ body {
   height: 128px;
   object-fit: cover;
   border-radius: 128px;
+  border: solid rgb(255, 255, 255) 1px;
 }
 
 .thumbnail {
@@ -30,16 +31,16 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'Russo One', sans-serif;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 200;
-  text-shadow: 2px 2px rgb(90, 1, 90);
+  text-shadow: 2px 2px rgb(7, 6, 7);
 }
 
 .social-icons a {
   color: #fffffe;
   text-decoration: none;
   font-family: 'Russo One', sans-serif;
-  text-shadow: 2px 2px rgb(90, 1, 90);
+  text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 .link {
